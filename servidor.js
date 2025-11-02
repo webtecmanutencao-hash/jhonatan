@@ -7,7 +7,7 @@ app.use(express.json());
 
 // CONFIGURAÇÕES - SUBSTITUA COM SEUS DADOS
 const WEBHOOK_SECRET = '66906f52e82893871708630b373c6046fbd4de7a'; // Mesma que salvou no GestãoPro
-const BASE44_API_URL = 'https://wtpro.base44.com/api/entities/Pagamento'; // URL da API Base44
+const BASE44_API_URL = 'https://app.base44.com/api/apps/68ebc5cb87a0bc92a0f1a4c6'; // URL da API Base44
 const BASE44_API_KEY = '94152a0f65cf4aa5b1353066c6db6696'; // Gere em Dashboard → Settings → API → Chaves de API
 
 // Endpoint que recebe webhooks da Braip
