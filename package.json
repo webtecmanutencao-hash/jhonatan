@@ -79,3 +79,16 @@
     "vite": "^7.1.12"
   }
 }
+{
+  "name": "gestaopro-braip-webhook",
+  "version": "1.0.0",
+  "description": "Backend para receber webhooks da Braip",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
