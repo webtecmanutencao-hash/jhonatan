@@ -1,0 +1,17 @@
+# Exported from Render on 2025-11-03T03:57:07Z
+version: "1"
+services:
+- type: web
+  name: gestaopro-webhook
+  runtime: node
+  repo: https://github.com/webtecmanutencao-hash/jhonatan
+  plan: free
+  envVars:
+  - key: BASE44_API_KEY
+    sync: false
+  - key: WEBHOOK_SECRET
+    sync: false
+  region: oregon
+  buildCommand: yarn
+  startCommand: node server.js
+  autoDeployTrigger: commit
